@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('nav ul li a');
    
-    let currentSection = '';
+   ;
 
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
