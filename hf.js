@@ -26,7 +26,7 @@ window.addEventListener('scroll', function() {
         if (pageYOffset >= sectionTop - sectionHeight / 3) {
 async function getWeather() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = 'your_openweathermap_api_key'; // Itt add meg a saját API kulcsodat
+    const apiKey = 3c197110db7abb4dc7ac65cd10008144; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
