@@ -6,6 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bemutatkozás - Klimes Imre</title>
     <link rel="stylesheet" href="style.css">
+	 <title>Weather API Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #weather {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather in Your City</h1>
+    <p>Enter a city name:</p>
+    <input type="text" id="cityInput" placeholder="City name">
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="weather"></div>
+
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
