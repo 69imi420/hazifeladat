@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, Helvetica, calibri;
     line-height: 1.6;
     padding: 20px;
     background-color: #FF6347;
@@ -38,7 +38,7 @@ main {
 }
 
 h1, h2 {
-    color: #333;
+    color: #888;
 }
 
 p {
